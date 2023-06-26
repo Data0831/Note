@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"type":"text","text":"數位系統","id":"26266228ed20b65a","x":-240,"y":-360,"width":250,"height":60},
+		{"type":"text","text":"二進制","id":"44231bd3c10ed8c6","x":-240,"y":-190,"width":250,"height":60},
+		{"type":"text","text":"數字基底轉換","id":"ff2abd01e9cae564","x":-240,"y":-270,"width":250,"height":60},
+		{"type":"text","text":"2補數 1補數","id":"d5f53fc0e20fa837","x":80,"y":-200,"width":250,"height":60},
+		{"type":"text","text":"1. [[1 數位系統與二元碼|數位系統]]","id":"95e5bb54d3ff4b97","x":-700,"y":-300,"width":250,"height":60},
+		{"type":"text","text":"Arithmetic","id":"0a7f2c210c0d1bed","x":80,"y":-95,"width":250,"height":60},
+		{"type":"text","text":"binary code","id":"d7be181d48b503bb","x":80,"y":-286,"width":250,"height":60},
+		{"type":"text","text":"2. [[2 布林代數與邏輯閘|邏輯與化簡]]","id":"30819eab79bfb57e","x":-700,"y":0,"width":250,"height":60},
+		{"type":"text","text":"布林代數","id":"5d44a644cf0c43f2","x":-279,"y":-49,"width":250,"height":60},
+		{"type":"text","text":"化簡法則","id":"68751f7123efb424","x":-288,"y":70,"width":250,"height":60},
+		{"type":"text","text":"other operation: nand","id":"bc04a29b8e320cb2","x":-290,"y":186,"width":370,"height":54},
+		{"type":"text","text":"3. [[3 Gate-level minimization|gate minimization]]","id":"5356311663312899","x":-733,"y":480,"width":316,"height":100},
+		{"id":"81601b48dea079be","x":-271,"y":364,"width":250,"height":60,"type":"text","text":"[[3 Gate-level minimization#3.2 3.3 k map|k map]]"},
+		{"id":"81f0fe8027f9c0e7","x":100,"y":304,"width":250,"height":60,"type":"text","text":"[[3 Gate-level minimization#proposition of Karnaugh map|proposition]]"},
+		{"id":"77269742e68052b5","x":105,"y":391,"width":250,"height":60,"type":"text","text":"[[3 Gate-level minimization#implicant|implicant]]"},
+		{"id":"e8884b3206cb7847","x":-271,"y":480,"width":250,"height":116,"type":"text","text":"[[3 Gate-level minimization#3.4 Simplify sop and pos|simply sop and pos]]"},
+		{"id":"e17930b388d48395","x":-263,"y":620,"width":250,"height":60,"type":"text","text":"[[3 Gate-level minimization#3.5 don't cate condition|don't care]]"},
+		{"id":"d609dd69aa5480eb","x":-271,"y":720,"width":250,"height":60,"type":"text","text":"[[3 Gate-level minimization#3.6 nor and nand|nor and nand]]"}
+	],
+	"edges":[
+		{"id":"57b9b5defffb0069","fromNode":"44231bd3c10ed8c6","fromSide":"right","toNode":"d5f53fc0e20fa837","toSide":"left"},
+		{"id":"12308e691171f0ac","fromNode":"95e5bb54d3ff4b97","fromSide":"bottom","toNode":"30819eab79bfb57e","toSide":"top"},
+		{"id":"ad9c5a5f75e63181","fromNode":"95e5bb54d3ff4b97","fromSide":"right","toNode":"26266228ed20b65a","toSide":"left"},
+		{"id":"7a57999d4d78d2e5","fromNode":"95e5bb54d3ff4b97","fromSide":"right","toNode":"ff2abd01e9cae564","toSide":"left"},
+		{"id":"31947aaac2d1465a","fromNode":"95e5bb54d3ff4b97","fromSide":"right","toNode":"44231bd3c10ed8c6","toSide":"left"},
+		{"id":"7ea67fdef7c25a45","fromNode":"44231bd3c10ed8c6","fromSide":"right","toNode":"0a7f2c210c0d1bed","toSide":"left"},
+		{"id":"90111523e788955e","fromNode":"44231bd3c10ed8c6","fromSide":"right","toNode":"d7be181d48b503bb","toSide":"left"},
+		{"id":"b802e4d521bd0620","fromNode":"30819eab79bfb57e","fromSide":"right","toNode":"5d44a644cf0c43f2","toSide":"left"},
+		{"id":"c328030f015e845a","fromNode":"30819eab79bfb57e","fromSide":"right","toNode":"68751f7123efb424","toSide":"left"},
+		{"id":"184fb639d5534bb3","fromNode":"30819eab79bfb57e","fromSide":"right","toNode":"bc04a29b8e320cb2","toSide":"left"},
+		{"id":"cfe15cf54de76ce9","fromNode":"30819eab79bfb57e","fromSide":"bottom","toNode":"5356311663312899","toSide":"top"},
+		{"id":"3001c405fcf44be5","fromNode":"5356311663312899","fromSide":"right","toNode":"81601b48dea079be","toSide":"left"},
+		{"id":"7ba4e22a55060d73","fromNode":"81601b48dea079be","fromSide":"right","toNode":"81f0fe8027f9c0e7","toSide":"left"},
+		{"id":"942b6a6dc7fe8714","fromNode":"81601b48dea079be","fromSide":"right","toNode":"77269742e68052b5","toSide":"left"},
+		{"id":"6299f23fc4b25082","fromNode":"5356311663312899","fromSide":"right","toNode":"e8884b3206cb7847","toSide":"left"},
+		{"id":"2ac51413133beea5","fromNode":"5356311663312899","fromSide":"right","toNode":"e17930b388d48395","toSide":"left"},
+		{"id":"193dfcecf0b8aad7","fromNode":"5356311663312899","fromSide":"right","toNode":"d609dd69aa5480eb","toSide":"left"}
+	]
+}
